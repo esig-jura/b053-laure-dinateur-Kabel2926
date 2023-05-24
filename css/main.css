@@ -136,3 +136,48 @@ footer nav ul li img{
 footer nav ul li img:hover{
     filter: grayscale(0);
 }
+
+/***** PAGE INFO ******/
+
+.page-info .portrait{
+    border-radius: 50%;
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.page-info h1{
+    text-align: center;
+}
+
+/***** PAGE CONTACT ******/
+
+.page-contact .contact-info{
+    list-style-type: none;
+    padding: 0;
+}
+
+.page-contact .contact-info li{
+    margin-bottom: 0.5em;
+}
+
+.page-contact .contact-info li a{
+    padding-left: 30px;
+
+    background-image: url("../img/mail.png");
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 0 -1px;
+}
+
+.page-contact .contact-info li a[href="tel:0741234567"]{
+    background-image: url("../img/phone.png");
+}
+
+.page-contact .contact-info li a[href="https://twitter.com/lauredi"] {
+    background-image: url("../img/twitter.png");
+}
+
+.page-contact .contact-info li a[href*="facebook"] {
+    background-image: url("../img/facebook.png");
+}
