@@ -30,28 +30,28 @@ a {
 
 
 h1,
-h2{
+h2 {
     font-family: 'Changa One' ,Serif;
     font-weight: 400;
 }
 
-h1{
+h1 {
     font-size: 2rem;
     margin: 0 0 1em;
 }
 
-h2{
+h2 {
     font-size: 1.5rem;
     margin: 0 0 0.75em;
 }
 
-p{
+p {
     line-height: 1.5;
 }
 
 /******** ENTÊTE DU SITE *****/
 
-header{
+header {
     text-align: center;
     background-color: #011627;
     padding-top: 5px;
@@ -59,7 +59,7 @@ header{
 }
 
 
-header.nom{
+header .nom {
     color: #2ec4b6;
     font-family: "Changa One",sans-serif;
     font-weight: 400;
@@ -68,21 +68,21 @@ header.nom{
     margin: 1rem 0;
 }
 
-header.metier{
+header .metier {
     margin-top: -5px;
 }
 
-header nav{
+header nav {
     padding: 10px 0;
     margin-top: 20px;
 }
 
-header nav ul{
+header nav ul {
     padding: 0;
     margin: 0 10px;
 }
 
-header nav ul li{
+header nav ul li {
     list-style-type: none;
     padding: 0;
     display: inline-block;
@@ -92,13 +92,13 @@ header nav ul li:first-child{
     display: none;
 }
 
-header nav ul li a{
+header nav ul li a {
     color: #fdfffc;
     font-weight: 800;
     padding: 15px 10px;
 }
 
-header nav ul li a:hover{
+header nav ul li a:hover {
     color: #2ec4b6;
     font-weight: 800;
     padding: 15px 10px;
@@ -106,62 +106,62 @@ header nav ul li a:hover{
 
 /***** CONTENU PRINCIPAL DU SITE ******/
 
-main{
+main {
     padding: 0 5%;
 }
 
 /***** PIED DE PAGE DU SITE ******/
 
-footer{
+footer {
     padding-top: 50px;
     text-align: center;
 }
 
-footer nav ul{
+footer nav ul {
     padding:0;
 }
 
-footer nav ul li{
+footer nav ul li {
     list-style-type: none;
     display: inline-block;
 }
 
-footer nav ul li img{
+footer nav ul li img {
     width: 50px;
     margin: 0 15px;
     filter: grayscale(1);
     transition: filter 500ms linear;
 }
 
-footer nav ul li img:hover{
+footer nav ul li img:hover {
     filter: grayscale(0);
 }
 
 /***** PAGE INFO ******/
 
-.page-info .portrait{
+.page-info .portrait {
     border-radius: 50%;
     max-width: 200px;
     display: block;
     margin: 0 auto;
 }
 
-.page-info h1{
+.page-info h1 {
     text-align: center;
 }
 
 /***** PAGE CONTACT ******/
 
-.page-contact .contact-info{
+.page-contact .contact-info {
     list-style-type: none;
     padding: 0;
 }
 
-.page-contact .contact-info li{
+.page-contact .contact-info li {
     margin-bottom: 0.5em;
 }
 
-.page-contact .contact-info li a{
+.page-contact .contact-info li a {
     padding-left: 30px;
 
     background-image: url("../img/mail.png");
@@ -170,7 +170,7 @@ footer nav ul li img:hover{
     background-position: 0 -1px;
 }
 
-.page-contact .contact-info li a[href="tel:0741234567"]{
+.page-contact .contact-info li a[href="tel:0741234567"] {
     background-image: url("../img/phone.png");
 }
 
