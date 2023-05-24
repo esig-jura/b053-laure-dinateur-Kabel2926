@@ -103,3 +103,11 @@ header nav ul li a:hover{
     font-weight: 800;
     padding: 15px 10px;
 }
+
+/***** CONTENU PRINCIPAL DU SITE ******/
+
+main{
+    padding: 0 5%;
+}
+
+/***** PIED DE PAGE DU SITE ******/
