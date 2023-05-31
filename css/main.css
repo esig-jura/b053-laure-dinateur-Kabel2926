@@ -161,13 +161,23 @@ footer nav ul li img:hover {
     flex-shrink: 1;
 }
 
-.page-accueil .realisation li figure{
+.page-accueil .realisation li a{
+    color: #011627;
+}
+
+.page-accueil .realisation li a figure{
     margin: 0;
     background-color: #e7e9eb;
 }
 
-.page-accueil .realisation li figure figcaption{
+.page-accueil .realisation li a figure figcaption{
     padding: 10px;
+}
+
+@media screen and (min-width: 480px){
+    .page-accueil .realisation li{
+        flex-basis: calc(25%);
+    }
 }
 
 /***** PAGE INFO ******/
