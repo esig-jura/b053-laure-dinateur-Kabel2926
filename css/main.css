@@ -137,6 +137,39 @@ footer nav ul li img:hover {
     filter: grayscale(0);
 }
 
+/***** PAGE ACCUEIL ******/
+
+.page-accueil .realisation {
+    /*Supprimer style de base de la liste à puce */
+    padding: 0;
+    list-style-type: none;
+    /*Active Flex */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    /*Alignement des éléments*/
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}
+
+.page-accueil .realisation li{
+    padding: 1rem;
+    flex-basis: calc(50%);
+    flex-grow: 2;
+    flex-shrink: 1;
+}
+
+.page-accueil .realisation li figure{
+    margin: 0;
+    background-color: #e7e9eb;
+}
+
+.page-accueil .realisation li figure figcaption{
+    padding: 10px;
+}
+
 /***** PAGE INFO ******/
 
 .page-info .portrait {
